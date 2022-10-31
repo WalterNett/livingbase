@@ -1,0 +1,33 @@
+footer{
+    width: 100vw;
+    height: 200px;
+    background-color: var(--color-grey-100);
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
+.message{
+    display: flex;
+    width:50%;
+    align-items: center;
+    gap: 2rem;
+}
+.message>h2{
+    color: var(--color-grey-700);
+
+}
+
+.message>p{
+    color: var(--color-grey-300);
+    font-weight: 400;
+}
+
+footer>button{
+    background-color: var(--color-grey-200);
+    color: var(--color-grey-700);
+    border: none;
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}

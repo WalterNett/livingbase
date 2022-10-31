@@ -1,1 +1,83 @@
-/* Desenvolva seu estilo aqui */
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 70px 0 100px;
+}
+
+.tittle{
+    display: flex;
+    gap: 0.5rem;
+}
+.tittle>h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.info-page{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 240px;
+    gap: 2rem;
+}
+
+.info-page>h2{
+    font-size:28px;
+    line-height: 42px;
+}
+.verde{
+    color: var(--color-brand-100);
+
+}
+
+.description{
+    font-size:16px;
+    font-weight: 400;
+}
+
+.consumir{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.imgheader>img{
+    width: 486px;
+    height: 300px;
+}
+
+
+nav{
+    width: 100vw;
+
+}
+
+nav>ul{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+ul>li>button{
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#todos{
+    background-color: var(--color-brand-200);
+    color: var(--color-grey-700);
+    border: none;
+    border-radius: 30px;
+    width: 70px;
+}
+
+

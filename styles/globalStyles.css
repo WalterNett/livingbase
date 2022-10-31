@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {

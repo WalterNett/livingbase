@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="./noticias.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles/rodape.css">
     <title>Living</title>
 </head>
 <body>
-    <main></main>
+    <header >
+        <div class="info-page">
+            <div class="tittle">
+                <img src="../../assets/Rectangle 4 (2).svg" alt="">
+                <h1>Living</h1>
+            </div>
+            <h2>Cuidando de cada <span class="verde">detalhe</span> da sua casa</h2>
+            <p class="description">Trazendo uma nova e incrível experiência para você e para seu lar </p>
+            <p class="consumir">Consumir conteúdos</p>
+        </div>
+        <div class="imgheader">
+            <img src="../../assets/headerimg.svg" alt="">
+        </div>
+    </header>
+    <main class="container">
+        <nav>
+            <ul>
+                <li><button class="all" id = 'todos'>Todos</button></li>
+                <li><button class="button" id = 'Pintura'>Pintura</button></li>
+                <li><button class="button" id = 'Decoração'>Decoração</button></li>
+                <li><button class="button" id = 'Organização'>Organização</button></li>
+                <li><button class="button" id = 'Limpeza'>Limpeza</button></li>
+                <li><button class="button" id = 'Segurança'>Segurança</button></li>
+                <li><button class="button" id = 'Reforma'>Reforma</button></li>
+                <li><button class="button" id = 'Aromas'>Aromas</button></li>
+            </ul>
+        </nav>
+        <section class="posts"></section>
+    </main>
+
+    <footer>
+        <div class="message"><img src="../../assets/Rectangle 4 (2).svg" alt="">
+            <h2>Living</h2>
+            <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+        </div>
+        <button id="voltar-top">Voltar para o topo</button>
+    </footer>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
